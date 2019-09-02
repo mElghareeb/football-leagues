@@ -1,0 +1,25 @@
+.team-cards-container{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    .MuiTypography-subtitle1{
+        font-size: 14px;
+    }
+    a{
+        text-decoration: none;
+    }
+    .team-card-container{
+        padding: 8px;
+        .team-card{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            text-align: left;
+            .team-image{
+                width: 100px;
+                height: 100px;
+                padding: 10px;
+            }
+        }
+    }
+}
